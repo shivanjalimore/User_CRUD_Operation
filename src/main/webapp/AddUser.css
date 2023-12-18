@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight:500;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 22px); /* Adjust for border and padding */
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 40%;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add styling to the form */
+#registrationForm {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #0cb511;
+}
+
+button[type="submit"]:hover {
+  background-color: #71d474;
+}
+
+/* Style the form title */
+.container h1 {
+   text-align: center;
+  margin-bottom: 30px;
+  color: #f60909;
+  font-size: 28px;
+  text-transform: uppercase;
+}
